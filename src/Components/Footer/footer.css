@@ -1,0 +1,18 @@
+.footer__Container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 50px;
+}
+.footer__Logo{
+    width: 10%;
+}
+.footer__Social-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcon{
+    margin: 5px;
+}

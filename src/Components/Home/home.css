@@ -1,0 +1,16 @@
+.home__Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+.home__Pic-Container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home__Pic{
+    width: 100%;
+    border-radius: 10px;
+}
