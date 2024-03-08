@@ -8,3 +8,10 @@
 .navbar__Link{
     font-family: 'ClashGrotesk';
 }
+
+
+@media screen and (max-width: 576px){
+    .navbar_Logo{
+        width: 30%;
+    }
+  }
