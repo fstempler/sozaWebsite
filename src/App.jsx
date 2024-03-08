@@ -11,6 +11,7 @@ import './fonts/ClashGrotesk-Variable.ttf';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      {/* <About /> */}
       <Footer />
     </>
   )
