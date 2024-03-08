@@ -2,11 +2,13 @@
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items: center;
-margin-top: 50px;
+align-items: flex-end;
+margin: 50px 0;
+width: 100%;
+padding: 0;
 }
 .footer__Logo{
-    width: 10%;
+    width: 8%;
 }
 .footer__Social-Container{
     display: flex;
@@ -15,4 +17,20 @@ margin-top: 50px;
 }
 .socialIcon{
     margin: 5px;
+}
+.footer__Copyright{
+    font-family: 'ClashGrotesk';    
+}
+
+@media screen and (max-width: 768px){
+    .footer__Logo{
+        width: 10%;
+    }
+    .socialIcon{
+        margin: 5px;
+        font-size: 0.8rem;
+    }   
+    .footer__Copyright{
+        font-size: 0.8rem;
+    }
 }
