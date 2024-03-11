@@ -13,11 +13,6 @@
     justify-content: flex-start;
     padding-right: 100px;
 }
-.contact__Title{
-    font-size: 1.2rem;
-    font-family: 'ClashGrotesk';
-    font-weight: bold;
-}
 .contact__Text{
     font-size: 0.9rem;
     font-family: 'ClashGrotesk';

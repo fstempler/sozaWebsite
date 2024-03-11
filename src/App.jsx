@@ -13,6 +13,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
+import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact';
 
 import './App.css'
@@ -33,6 +34,7 @@ const routes = createBrowserRouter(
       <Route index element={<Home />}/>
       <Route path="about" element={<About />} />
       <Route  path="contact" element={<Contact />} />
+      <Route path='projects' element={<Projects />} />
     </Route>
   )
 );

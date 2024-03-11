@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="d-flex ms-auto align-items-end navbar-nav ml-lg-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link active navbar__Link" aria-current="page" to="#">PROJECTS</NavLink>
+                            <NavLink className="nav-link active navbar__Link" aria-current="page" to={'projects'}>PROJECTS</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link active navbar__Link" aria-current="page" to={'about'}>ABOUT</NavLink>

@@ -1,0 +1,26 @@
+.projectCard__Container{
+    /* background-image: url('../../../assets/Projects/Yeronga/1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+    width: 660px;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    transition: filter .3s ease-in-out;
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+    flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
+    margin: 10px; /* Adjust margin as needed for spacing between cards */
+}
+.projectCard__Container:hover { 
+    filter: none;    
+}
+.projectCard__Title{
+    font-family: 'ClashGrotesk';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px;    
+}

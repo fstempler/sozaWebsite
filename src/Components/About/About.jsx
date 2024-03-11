@@ -3,13 +3,21 @@ import ArqPic1 from '../../assets/About/ArqPic1.jpg';
 import ArqPic2 from '../../assets/About/ArqPic2.jpg';
 import ArqPic3 from '../../assets/About/ArqPic3.jpg';
 import ArqPic4 from '../../assets/About/ArqPic4.jpg';
-
+//Style
 import './about.css';
+//Components
+import Title from '../Title/Title'
+
 
 const About = () => {
     return (
+        
         <section className='about__Main-Container'>
-            <div className='about__Text-Container'>
+            
+            <div className='about__Text-Container'>                
+                <div className='about__Title-Container'>
+                    <Title title={'About'}  />
+                </div>
                 <h3 className='about__Title'>Title 1</h3>
                <p className='about__Text'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem ut atque esse saepe cupiditate porro magnam, eius odit rerum molestiae quae, deserunt assumenda facere inventore nobis quis iusto nisi vel blanditiis. Harum labore dolore quis quaerat molestiae eius illo praesentium ratione iste nemo cumque ab distinctio, neque totam dolorem!

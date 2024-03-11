@@ -1,12 +1,15 @@
 import './contact.css'
 
+//Components
+import Title from '../Title/Title'
+
 import contact1 from '../../assets/Contact/contact1.jpg'
 
 const Contact  = () => {
     return (
         <section className='contact__Main-container'>
-            <div className='text__Container'>
-                <h1 className='contact__Title'>Contact</h1>
+            <div className='text__Container'>                
+                <Title title="Contact" />
                 <p className='contact__Text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi et odit beatae animi expedita, iure reprehenderit magnam neque? Blanditiis, fugit?</p>
                 <img src={contact1} alt='Contact Image' className='contact__Img' />
             </div>
