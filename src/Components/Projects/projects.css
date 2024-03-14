@@ -1,4 +1,9 @@
 .project__card-container{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    justify-content: center;   
+}
+
+.projects__Link{
+    text-decoration: none;
 }

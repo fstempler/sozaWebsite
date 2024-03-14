@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Yeronga 1.0",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse hic vitae debitis ab reiciendis, ad aspernatur voluptates, aut non maiores quae earum? Porro unde fugiat repellendus, reprehenderit iure optio earum atque. Illum reprehenderit reiciendis dolor minus tenetur, repudiandae aspernatur culpa magni, qui voluptate ipsa sint aliquam quibusdam commodi! Provident.",
+        "images": ["src/assets/Projects/Yeronga/1.jpg",
+                    "src/assets/Projects/Yeronga/2.jpg", 
+                    "src/assets/Projects/Yeronga/3.jpg",
+                    "src/assets/Projects/Yeronga/4.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Morningside 1.0",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse hic vitae debitis ab reiciendis, ad aspernatur voluptates, aut non maiores quae earum? Porro unde fugiat repellendus, reprehenderit iure optio earum atque. Illum reprehenderit reiciendis dolor minus tenetur, repudiandae aspernatur culpa magni, qui voluptate ipsa sint aliquam quibusdam commodi! Provident.",
+        "images": ["src/assets/Projects/Morningside/1.png", 
+                    "src/assets/Projects/Morningside/2.png", 
+                    "src/assets/Projects/Morningside/3.png",
+                    "src/assets/Projects/Morningside/4.png"]
+    }
+    
+]
+
+

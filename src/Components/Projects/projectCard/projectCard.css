@@ -2,8 +2,8 @@
     /* background-image: url('../../../assets/Projects/Yeronga/1.jpg'); */
     background-size: cover;
     background-position: center;
-    height: 440px;
-    width: 660px;
+    height: 400px;
+    width: 620px;
     border-radius: 5px;
     filter: grayscale(100%);
     transition: filter .3s ease-in-out;

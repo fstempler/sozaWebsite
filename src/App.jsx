@@ -15,6 +15,9 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact';
+import Project from './Components/Project/Project';
+//Context
+import { ProjectProvider } from './Components/State/ProjectContext';
 
 import './App.css'
 
@@ -30,23 +33,28 @@ const Root = () => {
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
-    <Route  path="/" element={<Root />}>
-      <Route index element={<Home />}/>
+    <Route path="/" element={<Root />}>
+      <Route index element={<Home />} />
       <Route path="about" element={<About />} />
-      <Route  path="contact" element={<Contact />} />
-      <Route path='projects' element={<Projects />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="project/:id" element={<Project />} /> 
     </Route>
   )
 );
+
 
 function App() {
   
   
   return (
     <>
-      <div>
-        <RouterProvider router={routes} />
-      </div>
+      <ProjectProvider>
+        <div>
+          <RouterProvider router={routes} />
+        </div>
+      </ProjectProvider>
+      
     </>
   )
 }

@@ -1,25 +1,46 @@
 import './projects.css'
 //Components
-import Title from '../Title/Title'
-import ProjectCard from './projectCard/ProjectCard'
-//Images
-import yeronga from '../../assets/Projects/Yeronga/1.jpg'
-import morningside from  '../../assets/Projects/Morningside/ToEDIT/1.jpg'
+import Title from '../Title/Title';
+import ProjectCard from './projectCard/ProjectCard';
+//Projects DB
+import projectsDb from '../../lib/projects.json';
+//Hooks
+import { Link } from 'react-router-dom';
+import { ProjectProvider, useProject } from '../State/ProjectContext';
+
+
+const ProjectCardWithProjectData = ({ project }) => {    
+    return (
+        <Link to={`/project/{${project.id}`} className='project__Link'>
+            <ProjectCard key={ project.id } title={ project.name } backgroundImage={ project.images[0] }/>                                        
+        </Link>
+    )
+}
 
 const Projects = () => {
+
+    
     return (
         <section className="container">
             <div className='about__Title-Container'>
                     <Title title={'Projects'}  />
             </div>            
             <div className='project__card-container'>
-                <ProjectCard title={'Yeronga 1.0'} backgroundImage={yeronga}/>
-                <ProjectCard title={'Morningside 1.0'} backgroundImage={morningside}/>
-                <ProjectCard title={'Yeronga 1.0'} backgroundImage={yeronga}/>
-                <ProjectCard title={'Morningside 1.0'} backgroundImage={morningside}/>
-            </div>            
+                {projectsDb.map ( project => {                    
+                    return (                        
+                        <ProjectCardWithProjectData key={project.id} project={project} />
+                    )
+                })}                
+            </div>                 
         </section>
+        
     )
 }
+
+const ProjectWithContext = () => (
+    <ProjectProvider>
+        <Projects />
+    </ProjectProvider>
+)
 
 export default Projects
