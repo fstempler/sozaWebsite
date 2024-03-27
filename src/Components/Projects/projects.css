@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;   
+    text-decoration: none;
 }
 
-.projects__Link{
+.project__Link{
     text-decoration: none;
 }

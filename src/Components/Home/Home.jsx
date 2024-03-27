@@ -1,8 +1,8 @@
 import './home.css'
 
 // Images
-import Pic1 from '../../assets/HomePage/Pic1.png';
-import Pic2 from '../../assets/HomePage/Pic2.png';
+import Pic1 from '../../assets/Projects/Morningside/1.png';
+import Pic2 from '../../assets/Projects/Yeronga/1.jpg';
 import Pic3 from '../../assets/HomePage/Pic3.png';
 
 const  Home = () => {

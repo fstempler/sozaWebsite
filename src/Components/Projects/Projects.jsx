@@ -37,10 +37,10 @@ const Projects = () => {
     )
 }
 
-const ProjectWithContext = () => (
-    <ProjectProvider>
-        <Projects />
-    </ProjectProvider>
-)
+// const ProjectWithContext = () => (
+//     <ProjectProvider>
+//         <Projects />
+//     </ProjectProvider>
+// )
 
 export default Projects
