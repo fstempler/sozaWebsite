@@ -11,7 +11,7 @@ import { ProjectProvider, useProject } from '../State/ProjectContext';
 
 const ProjectCardWithProjectData = ({ project }) => {    
     return (
-        <Link to={`/project/{${project.id}`} className='project__Link'>
+        <Link to={`/project/${project.id}`} className='project__Link'>
             <ProjectCard key={ project.id } title={ project.name } backgroundImage={ project.images[0] }/>                                        
         </Link>
     )
@@ -36,11 +36,5 @@ const Projects = () => {
         
     )
 }
-
-// const ProjectWithContext = () => (
-//     <ProjectProvider>
-//         <Projects />
-//     </ProjectProvider>
-// )
 
 export default Projects

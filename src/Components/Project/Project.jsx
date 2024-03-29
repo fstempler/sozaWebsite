@@ -17,7 +17,7 @@ const Project = () => {
   const { project, setProject } = useProject();
 
   useEffect(() => {     
-    const foundProject = projectsDb.find(project => project.id);    
+    const foundProject = projectsDb.find(project => project.id === parseInt(id));    
     setProject(foundProject);
     
   }, [id, setProject]);

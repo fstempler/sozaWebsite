@@ -1,9 +1,9 @@
 import './home.css'
 
 // Images
-import Pic1 from '../../assets/Projects/Morningside/1.png';
-import Pic2 from '../../assets/Projects/Yeronga/1.jpg';
-import Pic3 from '../../assets/HomePage/Pic3.png';
+import Pic1 from '../../../public/Projects/Morningside/1.png';
+import Pic2 from '../../../public/Projects/Yeronga/1.jpg';
+// import Pic3 from '../../assets/HomePage/Pic3.png';
 
 const  Home = () => {
     return (
@@ -18,10 +18,7 @@ const  Home = () => {
                             </div>
                             <div className="carousel-item">
                                 <img src={Pic2} className="d-block w-100 home__Pic" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src={Pic3} className="d-block w-100 home__Pic" alt="..." />
-                            </div>
+                            </div>                            
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
