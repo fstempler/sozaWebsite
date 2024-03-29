@@ -3,7 +3,9 @@ import './home.css'
 // Images
 import Pic1 from '../../../public/Projects/Morningside/1.png';
 import Pic2 from '../../../public/Projects/Yeronga/1.jpg';
-// import Pic3 from '../../assets/HomePage/Pic3.png';
+//Hooks
+import { Link } from 'react-router-dom';
+
 
 const  Home = () => {
     return (
@@ -14,10 +16,14 @@ const  Home = () => {
                     <div id="carouselExample" className="carousel slide">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={Pic1} className="d-block w-100 home__Pic" alt="..." />
+                                <Link to={`/project/2`} className='project__Link'>
+                                    <img src={Pic1} className="d-block w-100 home__Pic" alt="..." />
+                                </Link>                                
                             </div>
                             <div className="carousel-item">
-                                <img src={Pic2} className="d-block w-100 home__Pic" alt="..." />
+                                <Link to={`/project/1`} className='project__Link'>
+                                    <img src={Pic2} className="d-block w-100 home__Pic" alt="..." />
+                                </Link>
                             </div>                            
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
