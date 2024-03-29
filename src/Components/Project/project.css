@@ -1,0 +1,14 @@
+.project__MainContainer{
+    display: flex;
+    flex-direction: row;    
+}
+.project__PicturesContainer{
+    width: 50%;
+}
+.project__Title{
+    position: fixed;
+}
+.project__Description{
+    position: fixed;
+    margin-top: 50px;
+}
