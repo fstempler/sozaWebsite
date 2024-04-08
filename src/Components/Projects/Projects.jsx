@@ -6,7 +6,6 @@ import ProjectCard from './projectCard/ProjectCard';
 import projectsDb from '../../lib/projects.json';
 //Hooks
 import { Link } from 'react-router-dom';
-import { ProjectProvider, useProject } from '../State/ProjectContext';
 
 
 const ProjectCardWithProjectData = ({ project }) => {    

@@ -1,22 +1,59 @@
 [
     {
         "id": 1,
-        "name": "Yeronga 1.0",
+        "name": "Yeronga 1.1",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse hic vitae debitis ab reiciendis, ad aspernatur voluptates, aut non maiores quae earum? Porro unde fugiat repellendus, reprehenderit iure optio earum atque. Illum reprehenderit reiciendis dolor minus tenetur, repudiandae aspernatur culpa magni, qui voluptate ipsa sint aliquam quibusdam commodi! Provident.",
         "images": ["../Projects/Yeronga/1.jpg",
                     "../Projects/Yeronga/2.jpg",
                     "../Projects/Yeronga/3.jpg",
-                    "../Projects/Yeronga/4.jpg"
+                    "../Projects/Yeronga/4.jpg",
+                    "../Projects/Yeronga/5.jpg",
+                    "../Projects/Yeronga/6.jpg",
+                    "../Projects/Yeronga/7.jpg",
+                    "../Projects/Yeronga/8.jpg",
+                    "../Projects/Yeronga/9.jpg",
+                    "../Projects/Yeronga/10.jpg",
+                    "../Projects/Yeronga/11.jpg",
+                    "../Projects/Yeronga/12.jpg",
+                    "../Projects/Yeronga/13.jpg",
+                    "../Projects/Yeronga/14.jpg",
+                    "../Projects/Yeronga/15.jpg",
+                    "../Projects/Yeronga/16.jpg",
+                    "../Projects/Yeronga/17.jpg",
+                    "../Projects/Yeronga/18.jpg"
                     ]
     },
     {
         "id": 2,
-        "name": "Morningside 1.0",
+        "name": "Morningside 1.2",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse hic vitae debitis ab reiciendis, ad aspernatur voluptates, aut non maiores quae earum? Porro unde fugiat repellendus, reprehenderit iure optio earum atque. Illum reprehenderit reiciendis dolor minus tenetur, repudiandae aspernatur culpa magni, qui voluptate ipsa sint aliquam quibusdam commodi! Provident.",
-        "images": ["../Projects/Morningside/1.png", 
-                    "../Projects/Morningside/2.png", 
-                    "../Projects/Morningside/3.png",
-                    "../Projects/Morningside/4.png"]
+        "images": ["../Projects/Morningside1/1.png", 
+                    "../Projects/Morningside1/2.png", 
+                    "../Projects/Morningside1/3.png",
+                    "../Projects/Morningside1/4.png",
+                    "../Projects/Morningside1/5.png",
+                    "../Projects/Morningside1/6.png",
+                    "../Projects/Morningside1/7.png",
+                    "../Projects/Morningside1/8.png",
+                    "../Projects/Morningside1/9.png",
+                    "../Projects/Morningside1/10.png",
+                    "../Projects/Morningside1/11.png",
+                    "../Projects/Morningside1/12.png",
+                    "../Projects/Morningside1/13.png",
+                    "../Projects/Morningside1/14.png",
+                    "../Projects/Morningside1/15.png"]
+    },
+    {
+        "id": 3,
+        "name": "Morningside 1.3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse hic vitae debitis ab reiciendis, ad aspernatur voluptates, aut non maiores quae earum? Porro unde fugiat repellendus, reprehenderit iure optio earum atque. Illum reprehenderit reiciendis dolor minus tenetur, repudiandae aspernatur culpa magni, qui voluptate ipsa sint aliquam quibusdam commodi! Provident.",
+        "images": ["../Projects/Morningside2/1.png", 
+                    "../Projects/Morningside2/2.png", 
+                    "../Projects/Morningside2/3.png",
+                    "../Projects/Morningside2/4.png",
+                    "../Projects/Morningside2/5.png",
+                    "../Projects/Morningside2/6.png",
+                    "../Projects/Morningside2/7.png"]
     }
     
 ]

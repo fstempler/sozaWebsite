@@ -13,6 +13,9 @@
     justify-content: flex-start;
     padding-right: 100px;
 }
+.contact__Img{
+    border-radius: 10px;
+}
 .contact__Text{
     font-size: 0.9rem;
     font-family: 'ClashGrotesk';

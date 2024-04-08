@@ -2,4 +2,6 @@
     width: 500px;
     height: auto;
     margin: 10px;
+    border-radius: 5px;
+    filter: drop-shadow( 3px 3px 6px #00000075 );
 }

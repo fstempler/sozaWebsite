@@ -1,8 +1,7 @@
 // Images
 import ArqPic1 from '../../assets/About/ArqPic1.jpg';
 import ArqPic2 from '../../assets/About/ArqPic2.jpg';
-import ArqPic3 from '../../assets/About/ArqPic3.jpg';
-import ArqPic4 from '../../assets/About/ArqPic4.jpg';
+
 //Style
 import './about.css';
 //Components
@@ -44,8 +43,8 @@ const About = () => {
                 </p> 
             </div>
             <div className='about__Img-Container'>                
-                <img className='about__Img' src={ArqPic3} />                
-                <img className='about__Img' src={ArqPic4} />
+                <img className='about__Img' src={ArqPic1} />                
+                <img className='about__Img' src={ArqPic2} />
             </div>
         </section>
     )
