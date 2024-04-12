@@ -18,8 +18,14 @@ padding: 0;
 .socialIcon{
     margin: 5px;
 }
+.footer__Mail-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .footer__Copyright{
     font-family: 'ClashGrotesk';    
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){

@@ -20,7 +20,7 @@ const Projects = () => {
 
     
     return (
-        <section className="container">
+        <section className="container projects__Container">
             <div className='about__Title-Container'>
                     <Title title={'Projects'}  />
             </div>            
@@ -30,7 +30,7 @@ const Projects = () => {
                         <ProjectCardWithProjectData key={project.id} project={project} />
                     )
                 })}                
-            </div>                 
+            </div>                             
         </section>
         
     )

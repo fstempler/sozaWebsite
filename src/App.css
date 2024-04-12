@@ -40,3 +40,7 @@
     url('./fonts/ClashGrotesk-Variable.ttf');
     font-weight: 'variable';
 }
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -16,10 +16,16 @@ import About from './Components/About/About';
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact';
 import Project from './Components/Project/Project';
+import LoadingPage from './Components/LoadingPage/LoadingPage';
 //Context
 import { ProjectProvider } from './Components/State/ProjectContext';
-
+//Hook
+import { useState, useEffect } from 'react';
+//Style
 import './App.css'
+
+
+
 
 const Root = () => {
   return(
@@ -46,17 +52,32 @@ const routes = createBrowserRouter(
 
 function App() {
   
-  
+  const [isLoading, setIsLoading] = useState(true);  
+
+  useEffect(() => {
+    // Simulate asynchronous task
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Simulate 2 seconds of loading
+  }, []);
+
   return (
     <>
-      <ProjectProvider>
-        <div>
-          <RouterProvider router={routes} />
+      {isLoading ? (
+        <div className='loading__Container'>
+          <LoadingPage />
         </div>
-      </ProjectProvider>
+        
+      ) : (
+        <ProjectProvider>
+          <div>
+            <RouterProvider router={routes} />
+          </div>
+        </ProjectProvider>
+      )}
       
-    </>
-  )
-}
 
+    </>
+  );
+}
 export default App

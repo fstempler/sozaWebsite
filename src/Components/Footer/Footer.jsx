@@ -1,6 +1,6 @@
 import './footer.css'
 
-import Logo from '../../../public/Logo.png';
+
 
 const  Footer = () => {
     return (
@@ -11,6 +11,13 @@ const  Footer = () => {
                 <i className="bi bi-facebook socialIcon"></i>
                 <i className="bi bi-linkedin socialIcon"></i>
             </div>
+            <div className='footer__Mail-Container'>
+                <a href='mailto:scott@sozaprojects.com.au'>
+                    <h6 className='footer__Copyright'>scott@sozaprojects.com.au</h6>
+                </a>
+            </div>
+            
+            
             <h6 className='footer__Copyright'>Made by Federico M. Stempler</h6>
         </footer>
     )

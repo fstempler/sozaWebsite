@@ -1,8 +1,12 @@
+/* .projects__Container{
+    height: 100vh; //Modify to control height of page
+} */
 .project__card-container{
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;   
     text-decoration: none;
+    height: auto;
 }
 
 .project__Link{
