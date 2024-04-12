@@ -13,6 +13,17 @@
     flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
     margin: 10px; /* Adjust margin as needed for spacing between cards */    
 }
+.loading__Images-Container{
+    /* background-image: url('../../../assets/Projects/Yeronga/1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Adjust margin as needed for spacing between cards */    
+}
 .projectCard__Container:hover { 
     filter: none;    
 }
