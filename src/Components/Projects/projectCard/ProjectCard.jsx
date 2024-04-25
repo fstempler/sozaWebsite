@@ -1,6 +1,7 @@
 import './projectCard.css'
 import Loading from '../../Loading/Loading'
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 const  ProjectCard = ({ backgroundImage, title}) => {
     const backgroundImg = {
@@ -23,9 +24,15 @@ const  ProjectCard = ({ backgroundImage, title}) => {
             </div>
             
           ) : (
-        <div className='projectCard__Container' style={backgroundImg}>
+        <motion.div 
+        className='projectCard__Container' 
+        style={backgroundImg}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={ {opacity: 0, transition: {duration: 0.3}} }
+        >
             <h2 className='projectCard__Title'>{title}</h2>
-        </div>
+        </motion.div>
           )}
         </>
     )

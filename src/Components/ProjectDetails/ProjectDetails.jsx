@@ -1,5 +1,6 @@
 import './projectDetails.css';
 import { useProject } from '../State/ProjectContext';
+import { motion } from 'framer-motion';
 
 
 const ProjectDetails = () => {
@@ -11,7 +12,12 @@ const ProjectDetails = () => {
     }
 
     return (
-        <div className='project__MainContainer'>
+        <motion.div 
+        className='project__MainContainer'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={ {opacity: 0, transition: {duration: 0.3}} }
+        >
             <div className='project__PicturesContainer'>
                 {project.images.map((image, index) => (
                      <img key={index} src={image} alt={`Image ${index + 1}`} className="projectCard__Img"/>
@@ -19,11 +25,15 @@ const ProjectDetails = () => {
             </div>
             <div className='project__TextContainer'>
                 <h2 className='project__Title'>{project.name}</h2>
-                <p className='project__Description'>{project.description}</p>                        
+                <div className='description__Container'>
+                    <p className='project__Description'>{project.description}</p>                        
+                </div>
+                
             </div>
              
              
-         </div>
+
+        </motion.div>
     )
 }
 

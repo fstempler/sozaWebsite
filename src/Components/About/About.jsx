@@ -1,7 +1,8 @@
 // Images
 import ArqPic1 from '../../assets/About/ArqPic1.jpg';
 import ArqPic2 from '../../assets/About/ArqPic2.jpg';
-
+//Hooks
+import { motion } from 'framer-motion';
 //Style
 import './about.css';
 //Components
@@ -11,7 +12,12 @@ import Title from '../Title/Title'
 const About = () => {
     return (
         
-        <section className='about__Main-Container'>
+        <motion.div 
+        className='about__Main-Container'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={ {opacity: 0, transition: {duration: 0.3}} }
+        >
             
             <div className='about__Text-Container'>                
                 <div className='about__Title-Container'>
@@ -46,7 +52,7 @@ const About = () => {
                 <img className='about__Img' src={ArqPic1} />                
                 <img className='about__Img' src={ArqPic2} />
             </div>
-        </section>
+        </motion.div>
     )
 }
 

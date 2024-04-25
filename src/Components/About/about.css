@@ -59,7 +59,7 @@
 @media screen and (max-width: 576px){
     .about__Main-Container{        
         flex-direction: column;        
-        padding-top: 30px;
+        padding-top: 75px;
     }
     .about__Text-Container{
         width: 100%;    

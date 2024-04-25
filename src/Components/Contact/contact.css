@@ -15,6 +15,7 @@
 }
 .contact__Img{
     border-radius: 10px;
+
 }
 .contact__Text{
     font-size: 0.9rem;
@@ -43,3 +44,17 @@
     border-style: solid;    
     border-color: #09171B;
 }
+
+@media screen and (max-width: 576px){
+    .contact__Main-container{        
+        flex-direction: column;    
+        padding-top: 75px;
+    }
+    .text__Container{
+        width: 100%;        
+        padding-right: 0;
+    }
+    .contact__Input{
+        width: 100%;        
+    }
+  }

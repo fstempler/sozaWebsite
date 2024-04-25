@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-trasnsparent">
+        <nav className="navbar navbar-expand-lg bg-body-trasnsparent fixed-top">
             <div className="container-fluid">
                 <NavLink className="navbar-brand" to={'/'}><img src={Logo} className='navbar_Logo'/></NavLink>
                 <button className="navbar-toggler ms-auto hidden-lg-up pull-right toggler__Toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

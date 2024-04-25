@@ -6,11 +6,16 @@ import Pic2 from '../../../public/Projects/Yeronga/1.jpg';
 import Pic3 from '../../../public/Projects/Morningside2/1.png';
 //Hooks
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 
 const  Home = () => {
     return (
-        <div className=''>
+        <motion.div className=''
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={ {opacity: 0, transition: {duration: 0.3}} }
+        >
             <main className='home__Content'>
                 <div className='home__Pic-Container'>                    
                     {/* Carousel */}
@@ -43,7 +48,7 @@ const  Home = () => {
                     </div>
                 </div>                
             </main>
-        </div>
+        </motion.div>
     )
 }
 

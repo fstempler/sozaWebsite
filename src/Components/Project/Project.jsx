@@ -3,8 +3,9 @@
 import './project.css'
 //Hooks
 import { useParams } from 'react-router-dom';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useProject } from '../State/ProjectContext';
+import { motion } from 'framer-motion';
 //DB
 import projectsDb from '../../lib/projects.json';
 //Components
@@ -27,9 +28,13 @@ const Project = () => {
   }
 
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={ {opacity: 0, transition: {duration: 0.3}} }
+    >
       <ProjectDetails project={project} />
-    </div>
+    </motion.div>
   );
 };
 
