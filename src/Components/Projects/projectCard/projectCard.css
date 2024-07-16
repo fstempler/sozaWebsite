@@ -8,13 +8,13 @@
     filter: grayscale(100%);
     transition: filter .3s ease-in-out;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: self-start;
     flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
     margin: 10px; /* Adjust margin as needed for spacing between cards */    
 }
-.loading__Images-Container{
-    /* background-image: url('../../../assets/Projects/Yeronga/1.jpg'); */
+.loading__Images-Container{    
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -23,6 +23,20 @@
     justify-content: center;
     align-items: center;
     margin: 10px; /* Adjust margin as needed for spacing between cards */    
+}
+
+.constructionContainer{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.constructionTitle{
+    font-family: 'ClashGrotesk';
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 15px;
 }
 .projectCard__Container:hover { 
     filter: none;    

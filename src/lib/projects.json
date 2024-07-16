@@ -53,8 +53,31 @@
                     "../Projects/Morningside2/5.png",
                     "../Projects/Morningside2/6.png",
                     "../Projects/Morningside2/7.png"]
+    },
+    {
+        "id": 4,
+        "name": "Paddington 1.4",
+        "construction": "UNDER CONSTRUCTION",
+        "description": "UNDER CONSTRUCTION",
+        "images": ["../Projects/Paddington/Paddington.png"
+                    ]
+    },
+    {
+        "id": 5,
+        "name": "Gordon Park 1.5",
+        "construction": "UNDER CONSTRUCTION",
+        "description": "UNDER CONSTRUCTION",
+        "images": ["../Projects/GordonPark/GordonPark.png"
+                    ]
+    },
+    {
+        "id": 6,
+        "name": "Stafford Heights 1.6",
+        "construction": "UNDER CONSTRUCTION",
+        "description": "UNDER CONSTRUCTION",
+        "images": ["../Projects/StaffordHeights/StaffordHeights.png"
+                    ]
     }
-    
 ]
 
 

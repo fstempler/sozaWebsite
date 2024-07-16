@@ -9,10 +9,15 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 
+
 const ProjectCardWithProjectData = ({ project }) => {    
     return (
         <Link to={`/project/${project.id}`} className='project__Link'>
-            <ProjectCard key={ project.id } title={ project.name } backgroundImage={ project.images[0] }/>                                        
+            <ProjectCard key={ project.id } 
+            title={ project.name } 
+            backgroundImage={ project.images[0] }
+            construction={ project.construction }
+            />                                        
         </Link>
     )
 }
@@ -35,8 +40,9 @@ const Projects = () => {
                     return (                        
                         <ProjectCardWithProjectData key={project.id} project={project} />
                     )
-                })}                
-            </div>                             
+                })}             
+            </div>             
+            
         </motion.div>
         
     )

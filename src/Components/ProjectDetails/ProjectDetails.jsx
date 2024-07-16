@@ -20,13 +20,32 @@ const ProjectDetails = () => {
         >
             <div className='project__PicturesContainer'>
                 {project.images.map((image, index) => (
-                     <img key={index} src={image} alt={`Image ${index + 1}`} className="projectCard__Img"/>
+                     <motion.img 
+                     key={index} 
+                     src={image} 
+                     alt={`Image ${index + 1}`} 
+                     className="projectCard__Img"
+                     initial={{ opacity: 0 }}
+                     animate={{ opacity: 1, transition: {duration: 1}}}
+                     />
                 ))}          
             </div>
             <div className='project__TextContainer'>
-                <h2 className='project__Title'>{project.name}</h2>
+                <motion.h2 
+                className='project__Title'
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1, transition: {duration: 2}}}
+                >
+                    {project.name}
+                </motion.h2>
                 <div className='description__Container'>
-                    <p className='project__Description'>{project.description}</p>                        
+                    <motion.p 
+                    className='project__Description'
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, transition: {duration: 2}}}
+                    >
+                        {project.description}
+                    </motion.p>                        
                 </div>
                 
             </div>

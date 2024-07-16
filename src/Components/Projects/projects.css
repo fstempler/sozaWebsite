@@ -1,5 +1,6 @@
 .projects__Container{
     height: 100vh;   
+    padding: 0 100px;
 }   
 .project__card-container{
     display: flex;
@@ -7,18 +8,33 @@
     justify-content: center;   
     align-items: center;
     text-decoration: none;
-    height: auto;
+    height: auto;    
 }
 
 .project__Link{
     text-decoration: none;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 1024px){
     .projects__Container{
-        padding-top: 80px;
+        padding: 50px 0 0 0;
+    }   
+    .about__Title-Container{
+        text-align: left;
+    }
+    
+  }
+
+@media screen and (max-width: 576px){   
+    .projects__Container{
+        padding: 80px 0;  
+        height: auto;      
     }   
     .about__Title-Container{
         text-align: center;
     }
+    .project__card-container{        
+        height: 100%;    
+    }
+    
   }

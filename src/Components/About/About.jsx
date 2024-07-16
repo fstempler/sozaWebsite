@@ -23,34 +23,41 @@ const About = () => {
                 <div className='about__Title-Container'>
                     <Title title={'About'}  />
                 </div>
-                <h3 className='about__Title'>Title 1</h3>
-               <p className='about__Text'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem ut atque esse saepe cupiditate porro magnam, eius odit rerum molestiae quae, deserunt assumenda facere inventore nobis quis iusto nisi vel blanditiis. Harum labore dolore quis quaerat molestiae eius illo praesentium ratione iste nemo cumque ab distinctio, neque totam dolorem!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit inventore nobis? Illo animi debitis, rerum minima necessitatibus at! Ducimus, vel repellendus. Voluptatem odio sint architecto non veritatis beatae, quaerat qui rerum eligendi exercitationem ea deserunt, veniam esse voluptatibus voluptas in tempore provident molestias consequuntur et doloribus aspernatur. Laboriosam, iste.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas reiciendis cum nisi quo, repellendus vel id omnis. Laudantium quasi sit ducimus deserunt ullam doloribus, est impedit quo. Officia esse nemo sint porro molestias dicta, neque inventore adipisci magni delectus voluptatum quod nulla eveniet obcaecati ad natus quia. Ea accusamus aperiam officiis consequuntur quos doloremque eius voluptatum deleniti architecto temporibus, commodi laborum recusandae, accusantium sapiente tempora, iure quidem eligendi? Accusantium nulla ut perspiciatis labore! Nisi autem cupiditate atque fugiat placeat eligendi perferendis quisquam repudiandae nostrum ipsam. Molestias voluptas architecto obcaecati nisi odit ut ratione molestiae dicta, sequi, reprehenderit repudiandae. Repudiandae, ab!
+                    <h3 className='about__Title'>History</h3>
+                        <p className='about__Text'>
+                            With more than 20 years experience in the Brisbane construction industry, SOZA director Scott Armour has established strong, trust-based relationships and a track record of high-end residential, multi-residential and large commercial projects completed on time and within budget.
+                            The SOZA team is guided by Scott’s collaborative approach to delivering high-quality construction projects in line with the client’s vision and financial requirements.
+                            SOZA has a number of active inner suburban sites that demonstrate Scott’s energy and commitment to safe, productive workplaces.
                 </p> 
-                <h3 className='about__Title'>Title 1</h3>
+                <h3 className='about__Title'>VALUES AND VISION</h3>
                 <p className='about__Text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis error pariatur modi molestiae! Corporis cumque iusto aut earum quo, soluta at, autem, laborum reprehenderit in culpa quasi vel commodi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit inventore nobis? Illo animi debitis, rerum minima necessitatibus at! Ducimus, vel repellendus. Voluptatem odio sint architecto non veritatis beatae, quaerat qui rerum eligendi exercitationem ea deserunt, veniam esse voluptatibus voluptas in tempore provident molestias consequuntur et doloribus aspernatur. Laboriosam, iste.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas reiciendis cum nisi quo, repellendus vel id omnis. Laudantium quasi sit ducimus deserunt ullam doloribus, est impedit quo. Officia esse nemo sint porro molestias dicta, neque inventore adipisci magni delectus voluptatum quod nulla eveniet obcaecati ad natus quia. Ea accusamus aperiam officiis consequuntur quos doloremque eius voluptatum deleniti architecto temporibus, commodi laborum recusandae, accusantium sapiente tempora, iure quidem eligendi? Accusantium nulla ut perspiciatis labore! Nisi autem cupiditate atque fugiat placeat eligendi perferendis quisquam repudiandae nostrum ipsam. Molestias voluptas architecto obcaecati nisi odit ut ratione molestiae dicta, sequi, reprehenderit repudiandae. Repudiandae, ab!
-                </p> 
-                <h3 className='about__Title'>Title 1</h3>
+                Scott wants the best advertisement for SOZA’s next project to be the last one it completed. He plans to do this by:
+                </p>
                 <p className='about__Text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis error pariatur modi molestiae! Corporis cumque iusto aut earum quo, soluta at, autem, laborum reprehenderit in culpa quasi vel commodi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit inventore nobis? Illo animi debitis, rerum minima necessitatibus at! Ducimus, vel repellendus. Voluptatem odio sint architecto non veritatis beatae, quaerat qui rerum eligendi exercitationem ea deserunt, veniam esse voluptatibus voluptas in tempore provident molestias consequuntur et doloribus aspernatur. Laboriosam, iste.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas reiciendis cum nisi quo, repellendus vel id omnis. Laudantium quasi sit ducimus deserunt ullam doloribus, est impedit quo. Officia esse nemo sint porro molestias dicta, neque inventore adipisci magni delectus voluptatum quod nulla eveniet obcaecati ad natus quia. Ea accusamus aperiam officiis consequuntur quos doloremque eius voluptatum deleniti architecto temporibus, commodi laborum recusandae, accusantium sapiente tempora, iure quidem eligendi? Accusantium nulla ut perspiciatis labore! Nisi autem cupiditate atque fugiat placeat eligendi perferendis quisquam repudiandae nostrum ipsam. Molestias voluptas architecto obcaecati nisi odit ut ratione molestiae dicta, sequi, reprehenderit repudiandae. Repudiandae, ab!
-                </p> 
-                <h3 className='about__Title'>Title 1</h3>
+                Being honest    
+                </p>
                 <p className='about__Text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis error pariatur modi molestiae! Corporis cumque iusto aut earum quo, soluta at, autem, laborum reprehenderit in culpa quasi vel commodi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit inventore nobis? Illo animi debitis, rerum minima necessitatibus at! Ducimus, vel repellendus. Voluptatem odio sint architecto non veritatis beatae, quaerat qui rerum eligendi exercitationem ea deserunt, veniam esse voluptatibus voluptas in tempore provident molestias consequuntur et doloribus aspernatur. Laboriosam, iste.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas reiciendis cum nisi quo, repellendus vel id omnis. Laudantium quasi sit ducimus deserunt ullam doloribus, est impedit quo. Officia esse nemo sint porro molestias dicta, neque inventore adipisci magni delectus voluptatum quod nulla eveniet obcaecati ad natus quia. Ea accusamus aperiam officiis consequuntur quos doloremque eius voluptatum deleniti architecto temporibus, commodi laborum recusandae, accusantium sapiente tempora, iure quidem eligendi? Accusantium nulla ut perspiciatis labore! Nisi autem cupiditate atque fugiat placeat eligendi perferendis quisquam repudiandae nostrum ipsam. Molestias voluptas architecto obcaecati nisi odit ut ratione molestiae dicta, sequi, reprehenderit repudiandae. Repudiandae, ab!
-                </p> 
+                Listening to his clients
+                </p>
+                <p className='about__Text'>
+                Managing his team collaboratively
+                </p>
+                <p className='about__Text'>
+                Dealing with SOZA’s sub-contractors and suppliers fairly
+                </p>
+                <p className='about__Text'>
+                Delivering exceptional outcomes
+                </p>                
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p className='about__Text'>
+                References available upon request. 
+                </p>                
             </div>
             <div className='about__Img-Container'>                
-                <img className='about__Img' src={ArqPic1} />                
-                <img className='about__Img' src={ArqPic2} />
+                <img className='about__Img' src={ArqPic1} />                                
             </div>
         </motion.div>
     )

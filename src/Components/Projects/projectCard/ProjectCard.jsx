@@ -3,7 +3,7 @@ import Loading from '../../Loading/Loading'
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const  ProjectCard = ({ backgroundImage, title}) => {
+const  ProjectCard = ({ backgroundImage, title, construction}) => {
     const backgroundImg = {
         backgroundImage: `url(${backgroundImage})`,    
     }
@@ -25,13 +25,16 @@ const  ProjectCard = ({ backgroundImage, title}) => {
             
           ) : (
         <motion.div 
-        className='projectCard__Container' 
+        className='projectCard__Container project__Link' 
         style={backgroundImg}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={ {opacity: 0, transition: {duration: 0.3}} }
+        exit={ {opacity: 0, transition: {duration: 0.3}} }        
         >
             <h2 className='projectCard__Title'>{title}</h2>
+            <div className='constructionContainer'>
+              <h3 className='constructionTitle'>{construction}</h3>
+            </div>
         </motion.div>
           )}
         </>
