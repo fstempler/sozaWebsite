@@ -8,7 +8,7 @@ const ProjectDetails = () => {
     console.log(project)
 
     if(!project) {
-        return <div>Loading in ProjectDetails...</div>
+        return <div>Loading...</div>
     }
 
     return (
@@ -38,7 +38,7 @@ const ProjectDetails = () => {
                 >
                     {project.name}
                 </motion.h2>
-                <div className='description__Container'>
+                {/* <div className='description__Container'>
                     <motion.p 
                     className='project__Description'
                     initial={{ opacity: 0 }}
@@ -46,7 +46,7 @@ const ProjectDetails = () => {
                     >
                         {project.description}
                     </motion.p>                        
-                </div>
+                </div> */}
                 
             </div>
              

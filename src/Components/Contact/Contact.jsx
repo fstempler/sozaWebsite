@@ -3,10 +3,24 @@ import './contact.css'
 import { motion } from 'framer-motion';
 //Components
 import Title from '../Title/Title'
+//EmailJS
+import emailjs from '@emailjs/browser'
 
-import contact1 from '../../assets/Contact/contact1.jpg'
+// import contact1 from '../../assets/Contact/contact1.jpg'
 
 const Contact  = () => {
+    const sendEmail = (e) => {
+      e.preventDefault();  
+      emailjs.sendForm('service_bhvyc51', 'template_b28sojp', e.target, 'D3tXyW3ypk9Gx_xoa')
+      .then((result) => {
+        console.log(result.text);
+        alert('Thank you!');
+        e.target.reset(); 
+    }, (error) => {
+        console.log(error.text);
+        alert('There was a problem. Please try again');
+    });
+    }
     return (
         <motion.div 
         className='contact__Main-container'
@@ -17,21 +31,21 @@ const Contact  = () => {
             <div className='text__Container'>                
                 <Title title="Contact" />
                 <p className='contact__Text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi et odit beatae animi expedita, iure reprehenderit magnam neque? Blanditiis, fugit?</p>
-                <img src={contact1} alt='Contact Image' className='contact__Img' />
+                
             </div>
             <div className='form__Container'>
-                <form>
+                <form onSubmit={sendEmail}>
                     <div className="mb-3">                        
-                        <input type="text" className="form-control-sm contact__Input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Name' required/>                        
+                        <input type="text" className="form-control-sm contact__Input" id="validationDefault01" placeholder='Name' name='Name' required/>                        
                     </div>
                     <div className="mb-3">
-                        <input type="email" className="form-control-sm contact__Input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email' required/>                                                
+                        <input type="email" className="form-control-sm contact__Input" id="validationDefault02" placeholder='Email' name='Email' required/>                                                
                     </div>
                     <div className="mb-3">
-                        <input type="number" className="form-control-sm contact__Input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Phone' required/>                                                
+                        <input type="number" className="form-control-sm contact__Input" id="validationDefault03" placeholder='Phone' name='Phone' required/>                                                
                     </div>
                     <div className="mb-3">                        
-                        <textarea className="form-control-sm contact__Input" id="exampleFormControlTextarea1" rows="5" placeholder='Message' required></textarea>
+                        <textarea className="form-control-sm contact__Input" id="validationDefault04" rows="5" placeholder='Message' name='Message' required></textarea>
                     </div>                    
                     <button type="submit" className="btn contact__Form-Btn">Submit</button>
                 </form>

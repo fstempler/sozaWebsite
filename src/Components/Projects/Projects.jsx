@@ -11,8 +11,9 @@ import { motion } from 'framer-motion';
 
 
 const ProjectCardWithProjectData = ({ project }) => {    
+    const linkTo = project.construction ? `/projects` : `/project/${project.id}`
     return (
-        <Link to={`/project/${project.id}`} className='project__Link'>
+        <Link to={linkTo} className='project__Link'>
             <ProjectCard key={ project.id } 
             title={ project.name } 
             backgroundImage={ project.images[0] }

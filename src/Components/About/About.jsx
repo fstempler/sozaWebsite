@@ -23,7 +23,7 @@ const About = () => {
                 <div className='about__Title-Container'>
                     <Title title={'About'}  />
                 </div>
-                    <h3 className='about__Title'>History</h3>
+                    <h3 className='about__Title'>HISTORY</h3>
                         <p className='about__Text'>
                             With more than 20 years experience in the Brisbane construction industry, SOZA director Scott Armour has established strong, trust-based relationships and a track record of high-end residential, multi-residential and large commercial projects completed on time and within budget.
                             The SOZA team is guided by Scott’s collaborative approach to delivering high-quality construction projects in line with the client’s vision and financial requirements.
@@ -57,7 +57,7 @@ const About = () => {
                 </p>                
             </div>
             <div className='about__Img-Container'>                
-                <img className='about__Img' src={ArqPic1} />                                
+                
             </div>
         </motion.div>
     )
