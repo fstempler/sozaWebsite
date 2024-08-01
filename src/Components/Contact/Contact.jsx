@@ -28,11 +28,11 @@ const Contact  = () => {
         animate={{ opacity: 1 }}
         exit={ {opacity: 0, transition: {duration: 0.3}} }
         >
-            <div className='text__Container'>                
+            {/* <div className='text__Container'>                
                 <Title title="Contact" />
                 <p className='contact__Text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi et odit beatae animi expedita, iure reprehenderit magnam neque? Blanditiis, fugit?</p>
                 
-            </div>
+            </div> */}
             <div className='form__Container'>
                 <form onSubmit={sendEmail}>
                     <div className="mb-3">                        
