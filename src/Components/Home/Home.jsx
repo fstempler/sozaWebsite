@@ -1,7 +1,7 @@
 import './home.css'
 
 // Images
-import Pic1 from '../../../public/Projects/Morningside1/13.png';
+import Pic1 from '../../assets/Morningside.png';
 import Pic2 from '../../../public/Projects/Yeronga/1.jpg';
 import Pic3 from '../../../public/Projects/Morningside2/1.png';
 //Hooks
